@@ -1,7 +1,7 @@
-# Redshift Robotics 2021 BEST
-Code for RedShift Robotics - 3676
+# 2021 BEST
+Code for BEST Robotics
 
-**Sourced From RedShift Robotics Engineering Notebook:** 
+**Sourced From Robotics Club Engineering Notebook:** 
 ## Software Design
 Every code segment started by defining the mechanical requirements for the robot. Afterwards, pseudocode was developed to plan the objective of each part of the program and what the result would be for the robot. The design and build team was consulted to confirm any necessities before the programming team began coding segments in Robot-C. The objectives were two drive motors, one arm motor, two actuator servos and autonomous driving. Simple motor and servo code was developed as each part of the robot was built, along with simulated limits. After modifying the code, it was tested for objectives such as speed and driver ease. A controller manual was given to the driver team to review and work out with the programming team to maximize comfort of use before being finalized. This manual would be studied and referred back to by the driver team to practice for maximum performance before game day. One method for the autonomous driving objective using the IR sensors was also designed, a distance-evaluating algorithm and an action initializing encoder. For distance-evaluating, one algorithm was written using different numbers of sensors: a two-sensor array, after referring to the design and build team.  For the encoder solution, a distance tracking method utilizing the limit switch was developed, and a PID loop was used for accuracy. After each code segment was tested and modified, the methods were implemented into the robot code. As the software was written, thorough but concise comments were added throughout the program. Every block was specifically named for its function. This allows for a better understanding of the function of the program and enables anyone, software designer or not, to edit the software with ease.
 
